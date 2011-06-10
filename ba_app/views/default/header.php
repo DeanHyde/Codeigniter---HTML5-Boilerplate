@@ -24,7 +24,7 @@
 
 	<!-- All JavaScript at the bottom, except for Modernizr and Respond.
        Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries -->
-	<script src="<?php echo base_url().FOLDER_JSLIB; ?>modernizr.js"></script>
+	<script src="<?php echo base_url().FOLDER_JSLIB; ?>modernizr.min.js"></script>
 	<script src="<?php echo base_url().FOLDER_JSLIB; ?>respond.min.js"></script>
 </head>
 
