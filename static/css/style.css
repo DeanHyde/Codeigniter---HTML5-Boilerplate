@@ -205,20 +205,47 @@ h1, h2, h3, h4, h5, h6 { font-weight: bold; }
 
 
 
+
+
 /**
  * Placeholder media queries for responsive design. Modify as design requires.
  * These follow after, and will override, the primary ('mobile first') styles
  * The closing /mediaquery comment is required by respond.js min/max-width Media Query polyfill
  */
 
-@media only screen and (min-width: 480px) {
-  /* Style adjustments for viewports 480px and over go here */
-
+/* < 1200px viewport */
+               
+@media (max-width: 1200px) {
+    /* Style overrides */
 }/*/mediaquery*/
 
-@media only screen and (min-width: 768px) {
-  /* Style adjustments for viewports 768px and over go here */
 
+/* iPad in landscape */
+/*    
+    TO PREVIEW ON THE DESKTOP, REPLACE THE QUERY WITH THE FOLLOW:
+    @media (max-width: 1024px) {  }
+*/
+@media (max-device-width: 1024px) and (orientation: landscape) {
+    /* Style overrides */
+}/*/mediaquery*/
+
+
+/* iPad in portrait */
+/*    
+    TO PREVIEW ON THE DESKTOP, REPLACE THE QUERY WITH THE FOLLOW:
+    @media (max-width: 768px) {  }
+*/
+@media (max-device-width: 1024px) and (orientation: portrait) {
+    /* Style overrides */
+}/*/mediaquery*/
+
+
+/* --------------------------------------------
+  Mobile
+-------------------------------------------- */
+
+@media (max-width: 600px) {
+    /* Style overrides */
 }/*/mediaquery*/
 
 
